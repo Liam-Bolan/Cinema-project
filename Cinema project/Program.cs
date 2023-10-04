@@ -18,7 +18,8 @@ namespace _21._09._23_strings_2
             string movie5 = "";
 
 
-            Console.WriteLine($"Which movie would you like to watch?{movie1}");
+            Console.WriteLine($"Which movie would you like to watch? 1) {movie1}" +
+                $"");
 
             int moviechoice = int.Parse(Console.ReadLine());
             if (moviechoice > 5)
@@ -63,9 +64,28 @@ namespace _21._09._23_strings_2
                 Console.WriteLine("Ok, How many people are watching?");
             }
 
+            if (moviechoice == 4 && age < )
+            {
+                Console.WriteLine("You are too young!");
+            }
 
+            if (moviechoice == 4 && age >= )
 
+            {
+                Console.WriteLine("Ok, How many people are watching?");
+            }
 
+            if (moviechoice == 5 && age < )
+            {
+                Console.WriteLine("You are too young!");
+            }
+
+            if (moviechoice == 5 && age >= )
+
+            {
+                Console.WriteLine("Ok, How many people are watching?");
+            }
+            
             int people = int.Parse(Console.ReadLine());
 
 
